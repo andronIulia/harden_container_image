@@ -1,0 +1,1 @@
+# harden_container_image
