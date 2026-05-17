@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Vulnerable image container"
+    return "Vulnerable image"

@@ -8,6 +8,7 @@ COPY hello.py /
 ENV FLASK_APP=hello 
 EXPOSE 8000 
 USER root
+
 CMD ["flask", "run", "--host", "0.0.0.0", "--port", "8000"]
 
 
